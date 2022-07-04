@@ -13,7 +13,9 @@
 
 
 <br>
-<br>
 
 ## :camera: Previews
+![preview2](https://i.imgur.com/8O6D88Y.png)
 ![js](https://i.imgur.com/D8Rt9ov.png)
+![preview3](https://i.imgur.com/SxRZtRj.png)
+![preview4](https://i.imgur.com/MOFv8H8.png)
