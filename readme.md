@@ -7,10 +7,13 @@
 
 ## :open_file_folder: Como utilizar
 <p>Coloque o arquivo div-className-preview.js na pasta do seu projeto e faça uma referência no final da tag body</p>
+
 ```
 <script src="./script/div-className-preview.js"></script>
 ```
+
 <p>O script identifica divs e sections, mas também pode exibir outras tags com um pequeno ajuste. Basta adicionar duas linhas no evento onclick</p>
+
 ```
 let tagList = document.getElementsByTagName("tag-escolhida")
 showInfo(tagList)
