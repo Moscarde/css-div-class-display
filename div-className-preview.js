@@ -1,4 +1,4 @@
-
+//config estilo css do nome da div
 const styleP = `
 position: absolute;
 right: 0;
@@ -8,12 +8,14 @@ font-style: italic;
 color: red;
 text-shadow: 0 0 6px #000;`
 
+//config estilo css do menu
 const styleMenu = `
 position: absolute;
 top: 30px;
 right: 30px;
 background: red;
 padding: 30px;`
+
 
 const showInfo = elementList => {
     for (let i = 0; i <= elementList.length; i++) {
@@ -48,6 +50,7 @@ const hideInfo = elementList => {
     })
 }
 
+//local onde o menu vai ser inserido
 document.querySelector("header").innerHTML += `
 <div style="${styleMenu}">
 Display Id & Class Name Menu
@@ -55,20 +58,10 @@ Display Id & Class Name Menu
 <button id="displayOn">Ligar</button>
 </div>`
 
-
-
+//evento atrelado ao botão no menu
 document.getElementById("displayOn").onclick = function () {
     let divList = document.getElementsByTagName("div")
     let sectionList = document.getElementsByTagName("section")
     showInfo(divList)
     showInfo(sectionList)
 }
-
-// document.getElementById("displayOff").onclick = function () {
-//     console.log('btn');
-//     let divList = document.getElementsByTagName("div")
-//     let sectionList = document.getElementsByTagName("section")
-//     hideInfo(divList)
-//     hideInfo(sectionList)
-
-// }
