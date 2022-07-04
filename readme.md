@@ -14,7 +14,7 @@
 
 <p>O script identifica divs e sections, mas também pode exibir outras tags com um pequeno ajuste. Basta adicionar duas linhas no evento onclick</p>
 
-```
+```javascript
 let tagList = document.getElementsByTagName("tag-escolhida")
 showInfo(tagList)
 ```
