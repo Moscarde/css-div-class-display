@@ -10,12 +10,22 @@
 ```
 <script src="./script/div-className-preview.js"></script>
 ```
-
+<p>O script identifica divs e sections, mas também pode exibir outras tags com um pequeno ajuste. Basta adicionar duas linhas no evento onclick</p>
+```
+let tagList = document.getElementsByTagName("tag-escolhida")
+showInfo(tagList)
+```
 
 <br>
 
 ## :camera: Previews
+>ajuda na configuração da responsividade
 ![preview2](https://i.imgur.com/8O6D88Y.png)
-![js](https://i.imgur.com/D8Rt9ov.png)
-![preview3](https://i.imgur.com/SxRZtRj.png)
+
+>menu para ligar a função
 ![preview4](https://i.imgur.com/MOFv8H8.png)
+
+![js](https://i.imgur.com/D8Rt9ov.png)
+
+![preview3](https://i.imgur.com/SxRZtRj.png)
+
