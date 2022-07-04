@@ -16,4 +16,4 @@
 <br>
 
 ## :camera: Previews
-[js](https://i.imgur.com/D8Rt9ov.png)
+![js](https://i.imgur.com/D8Rt9ov.png)
